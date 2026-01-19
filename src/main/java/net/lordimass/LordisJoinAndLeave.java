@@ -9,14 +9,14 @@ import net.lordimass.events.ExampleEvent;
 
 /** Main class for a Hytale Java plugin. */
 @SuppressWarnings("unused")
-public class TemplatePlugin extends JavaPlugin {
+public class LordisJoinAndLeave extends JavaPlugin {
 
   /**
    * Create a new instance of this plugin.
    *
    * @param init Data to pass to the JavaPlugin initialiser.
    */
-  public TemplatePlugin(@Nonnull JavaPluginInit init) {
+  public LordisJoinAndLeave(@Nonnull JavaPluginInit init) {
     super(init);
   }
 

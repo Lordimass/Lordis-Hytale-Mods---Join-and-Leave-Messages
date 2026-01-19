@@ -18,7 +18,7 @@ import com.hypixel.hytale.server.core.event.events.player.PlayerReadyEvent;
  * );
  * }</pre>
  */
-public class ExampleEvent {
+public class JoinAndLeaveEvents {
 
   /**
    * Sends a message in chat welcoming the player who triggered the event.

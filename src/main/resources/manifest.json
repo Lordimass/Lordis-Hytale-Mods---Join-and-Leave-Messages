@@ -1,8 +1,8 @@
 {
   "Group": "net.lordimass",
-  "Name": "TemplatePlugin",
+  "Name": "Lordi's Hytale Mods - Join & Leave Messages",
   "Version": "${version}",
-  "Description": "Description of your plugin",
+  "Description": "A simple mod that sends messages in chat when players join or leave a Hytale server. This applies to the whole server rather than each individual instance in the universe.",
   "Authors": [
     {
       "Name": "Lordimass",
@@ -16,5 +16,5 @@
   "OptionalDependencies": {},
   "DisabledByDefault": false,
   "IncludesAssetPack": false,
-  "Main": "net.lordimass.TemplatePlugin"
+  "Main": "net.lordimass.LordisJoinAndLeave"
 }
