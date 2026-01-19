@@ -1,0 +1,20 @@
+{
+  "Group": "net.lordimass",
+  "Name": "TemplatePlugin",
+  "Version": "${version}",
+  "Description": "Description of your plugin",
+  "Authors": [
+    {
+      "Name": "Lordimass",
+      "Email": "lordimass@lordimass.net",
+      "Url": "lordimass.net"
+    }
+  ],
+  "Website": "https://github.com/Lordimass?tab=repositories",
+  "ServerVersion": "*",
+  "Dependencies": {},
+  "OptionalDependencies": {},
+  "DisabledByDefault": false,
+  "IncludesAssetPack": false,
+  "Main": "net.lordimass.TemplatePlugin"
+}
