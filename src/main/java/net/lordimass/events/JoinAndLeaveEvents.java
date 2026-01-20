@@ -7,6 +7,8 @@ import com.hypixel.hytale.server.core.event.events.player.PlayerDisconnectEvent;
 import com.hypixel.hytale.server.core.event.events.player.PlayerReadyEvent;
 import com.hypixel.hytale.server.core.universe.PlayerRef;
 
+import com.hypixel.hytale.server.core.universe.Universe;
+import com.hypixel.hytale.server.core.universe.world.World;
 import java.awt.*;
 
 /**
@@ -32,8 +34,11 @@ public class JoinAndLeaveEvents {
    */
   public static void onPlayerConnect(PlayerConnectEvent event) {
     PlayerRef player = event.getPlayerRef();
-    player.sendMessage(
-        Message.raw(player.getUsername() + " has joined the game.").color(Color.YELLOW).italic(true));
+    Universe.get().sendMessage(Message
+        .raw(player.getUsername() + " has joined the game.")
+        .color(Color.YELLOW)
+        .italic(true)
+    );
   }
 
   /**
@@ -43,6 +48,10 @@ public class JoinAndLeaveEvents {
    */
   public static void onPlayerDisconnect(PlayerDisconnectEvent event) {
     PlayerRef player = event.getPlayerRef();
-    player.sendMessage(Message.raw(player.getUsername() + " has left the game.").color(Color.YELLOW).italic(true));
+    Universe.get().sendMessage(Message
+        .raw(player.getUsername() + " has left the game.")
+        .color(Color.YELLOW)
+        .italic(true)
+    );
   }
 }
